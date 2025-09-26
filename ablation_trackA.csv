@@ -1,0 +1,5 @@
+variant,recall_like,latency_s,avg_ctx_len
+baseline,0.5,0.0009,184.75
+compress,0.0,0.001125,180.55
+rerank,0.5,0.00125,183.4
+rerank+compress,0.25,0.00095,177.45
