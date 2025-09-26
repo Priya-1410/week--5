@@ -1,0 +1,17 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "chunking": {
+    "chunk_size": 300,
+    "overlap": 50
+  },
+  "multimodal_pipeline": false,
+  "guardrails": {
+    "citation_enforcement": true,
+    "pii_redaction": true,
+    "refusal_template": true
+  },
+  "retriever_k": 8,
+  "project_domain": "Adaptive Multi-Agent Systems for Stock Market Prediction & Sentiment Analysis",
+  "notes": "Corpus contains 3 research papers on multi-agent finance + sentiment analysis, chunked into 300-token passages."
+}
